@@ -81,3 +81,4 @@ psutil==5.8.0
 ptyprocess==0.7.0
 pusher==3.0.0
 py==1.10.0
+pandas

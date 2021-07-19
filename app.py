@@ -8,6 +8,7 @@ from dash_html_components.H5 import H5
 from dash_html_components.P import P
 import plotly.express as px
 import urllib.request as urllib
+import os
 import dash_bootstrap_components as dbc
 
 # from urllib.request import urlopen
@@ -541,4 +542,5 @@ def update_graph(xaxis_column_name, yaxis_column_name):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)
