@@ -38,7 +38,7 @@ cffi==1.14.5
 chardet==4.0.0
 click==8.0.1
 cloudpickle==1.6.0
-clyent==1.2.2
+clyent==1.2.1
 colorama==0.4.4
 colorlover==0.3.0
 conda==4.10.3
