@@ -75,7 +75,6 @@ fsspec==0.9.0
 future==0.18.2
 gevent==21.1.2
 glob2==0.7
-gmpy2==2.0.8
 greenlet==1.0.0
 gunicorn==20.1.0
 h5py==2.10.0
